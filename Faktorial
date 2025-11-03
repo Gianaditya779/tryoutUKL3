@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class TryoutUKL3 {
+
+    public static void main(String[] args) {
+        Scanner masukan = new Scanner (System.in);
+        int n, faktorial;
+        System.out.println("Masukan bilangan bulat (harus positif) = ");
+        n = masukan.nextInt();
+        faktorial = 1;
+        for (int i = 1; i<=n; i++){
+        faktorial *=i;
+        }
+            System.out.println("hasil faktorialnya adalah =  "+ faktorial);
+        
+    }
+}
